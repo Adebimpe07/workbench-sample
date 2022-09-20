@@ -1,0 +1,19 @@
+{
+  "name": "work_bench",
+  "version": "1.0.0",
+  "description": "",
+  "main": "twconfig.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adebimpe07/workbench-sample.git"
+  },
+  "author": "Adebimpe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adebimpe07/workbench-sample/issues"
+  },
+  "homepage": "https://github.com/Adebimpe07/workbench-sample#readme"
+}
