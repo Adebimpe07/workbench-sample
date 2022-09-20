@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <base href="/" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="icon" href="" sizes="any" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css"
+    />
+
+    <link rel="stylesheet" href="/styles/global.css" />
+    <link rel="stylesheet" href="/styles/local.css" />
+
+    <title>Work bench</title>
+    <style>
+      .img {
+        width: 20px;
+      }
+    </style>
+  </head>
+  <body class="flex flex-col h-screen overflow-auto">
+    <header class="flex items-center my-2 px-3 sticky top-0 bg-[#fff] z-50">
+      <div class="w-[18%] mt-2">
+        <img src="/assets/vectors/workbench.svg" alt="" />
+      </div>
+
+      <div class="flex flex-1 justify-between">
+        <div class="flex gap-8">
+          <div class="text-[#54565B]">
+            <p class="text-[0.75rem]">
+              Pages
+              <span class="text-[#C9C8C6]"> / Plant Work-In-Progress </span>
+            </p>
+            <p class="text-[1.5rem] normal tracking-wide">Plant WIP</p>
+          </div>
+          <label
+            class="flex bg-[#F9F9F9] border border-[#EBEBEB] rounded-[13px] pr-4 h-[3rem] w-[22.56rem]"
+          >
+            <input
+              type="search"
+              placeholder="Search"
+              class="bg-[#F9F9F9] placeholder:border-none outline-0 w-full shadow-sm ml-4"
+            />
+            <img class="img" src="/assets/vectors/search.svg" alt="" />
+          </label>
+        </div>
+
+        <div class="flex">
+          <div class="flex gap-4">
+            <img class="img" src="/assets/vectors/moon.svg" alt="" />
+            <img class="w-[50px]" src="/assets/vectors/switch.svg" alt="" />
+            <img class="img" src="/assets/vectors/sun.svg" alt="" />
+          </div>
+
+          <div class="flex items-center gap-10 ml-10">
+            <div class="relative">
+              <img src="/assets/vectors/notification.svg" alt="" />
+              <img
+                class="absolute w-[10px] top-[-13px] right-[-8px]"
+                src="/assets/vectors/not_dot.svg"
+                alt=""
+              />
+            </div>
+
+            <div>
+              <img src="/assets/vectors/switch2.svg" alt="" />
+              <img src="/assets/vectors/switch1.svg" alt="" />
+            </div>
+
+            <img width="45%" src="/assets/images/AFEX.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="h-full flex-1 flex overflow-auto">
+      <aside
+        class="overflow-auto h-full ml-[1.75rem] pr-[1.5rem] text-[0.875rem] border-r border-[#F3F3F3] w-[16.625rem]"
+      >
+        <p class="text-[#B0B7C3] text-[0.75rem] pt-[1.7rem]">PAGES</p>
+        <nav class="h-full">
+          <ul class="text-[#8B908B]">
+            <li class="my-[1.875rem]">
+              <a href="/pages/index.html" class="flex items-center gap-1">
+                <span class="pr-2">
+                  <img src="/assets/vectors/dashboard.svg" alt="" />
+                </span>
+                <span>Dashboards</span>
+              </a>
+            </li>
+
+            <li class="my-[1.875rem]">
+              <a href="/pages/index.html" class="flex items-center gap-1">
+                <span class="pr-2">
+                  <img src="/assets/vectors/client.svg" alt="" />
+                </span>
+                <span>Clients</span>
+              </a>
+            </li>
+            <li class="my-[1.875rem]">
+              <a href="/pages/index.html" class="flex items-center gap-1">
+                <span class="pr-2">
+                  <img src="/assets/vectors/farmers.svg" alt="" />
+                </span>
+                <span>Farmers</span>
+              </a>
+            </li>
+
+            <li class="my-[1.875rem]">
+              <a
+                href="/pages/index.html"
+                class="flex items-center justify-between"
+              >
+                <span class="flex gap-1">
+                  <img
+                    class="pr-2"
+                    src="/assets/vectors/inventory.svg"
+                    alt=""
+                  />
+                  <span>Inventory</span>
+                </span>
+                <img src="/assets/vectors/arr-ryt.svg" alt="" />
+              </a>
+            </li>
+
+            <li class="my-[1.875rem]">
+              <a href="/pages/index.html" class="flex items-center gap-1">
+                <span class="pr-2">
+                  <img src="/assets/vectors/logistics.svg" alt="" />
+                </span>
+                <span>Logistics</span>
+              </a>
+            </li>
+
+            <li class="my-[1.875rem]">
+              <a
+                href="/pages/index.html"
+                class="flex items-center justify-between"
+              >
+                <span class="flex gap-1">
+                  <img class="pr-2" src="/assets/vectors/loans.svg" alt="" />
+                  <span>Loans</span>
+                </span>
+                <img src="/assets/vectors/arr-ryt.svg" alt="" />
+              </a>
+            </li>
+
+            <li class="my-[1.875rem]">
+              <a
+                href="/pages/index.html"
+                class="flex items-center justify-between"
+              >
+                <span class="flex gap-1">
+                  <img
+                    class="pr-2"
+                    src="/assets/vectors/financials.svg"
+                    alt=""
+                  />
+                  <span>Financials</span>
+                </span>
+                <img src="/assets/vectors/arr-ryt.svg" alt="" />
+              </a>
+            </li>
+
+            <li class="my-[1.875rem]">
+              <a href="/pages/index.html" class="flex items-center gap-1">
+                <span class="pr-2">
+                  <img src="/assets/vectors/accounting.svg" alt="" />
+                </span>
+                <span>Accounting</span>
+              </a>
+            </li>
+            <li class="my-[1.875rem]">
+              <a href="/pages/index.html" class="flex items-center gap-1">
+                <span class="pr-2">
+                  <img src="/assets/vectors/cash.svg" alt="" />
+                </span>
+                <span>Cash Advance</span>
+              </a>
+            </li>
+            <li class="my-[1.875rem]">
+              <a href="/pages/index.html" class="flex items-center gap-1">
+                <span class="pr-2">
+                  <img src="/assets/vectors/audit.svg" alt="" />
+                </span>
+                <span>Audit</span>
+              </a>
+            </li>
+            <li class="my-[1.875rem]">
+              <a href="/pages/index.html" class="flex items-center gap-1">
+                <span class="pr-2">
+                  <img src="/assets/vectors/invoice.svg" alt="" />
+                </span>
+                <span>Invoice</span>
+              </a>
+            </li>
+
+            <li class="my-[1.875rem]">
+              <a href="/pages/index.html" class="flex items-center gap-1">
+                <span class="pr-2">
+                  <img src="/assets/vectors/system.svg" alt="" />
+                </span>
+                <span>System</span>
+              </a>
+            </li>
+
+            <li class="my-[1.875rem]">
+              <a href="/pages/index.html" class="flex items-center gap-1">
+                <span class="pr-2">
+                  <img src="/assets/vectors/setting.svg" alt="" />
+                </span>
+                <span>Setting</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <!-- main body -->
+      <section class="flex-1 mx-[2.375rem] my-[3.843rem] h-full overflow-auto">
+        <div class="flex text-[0.875rem] gap-[2.8125rem] pl-3">
+          <div class="flex gap-1">
+            <img src="/assets/vectors/pend.svg" alt="" />
+            <p class="text-[#38CB89]">Pending Requests</p>
+          </div>
+
+          <div class="flex gap-1">
+            <img src="/assets/vectors/approve.svg" alt="" />
+            <p>Approved Requests</p>
+          </div>
+
+          <div class="flex gap-1">
+            <img src="/assets/vectors/review.svg" alt="" />
+            <p>Review</p>
+          </div>
+        </div>
+        <div class="relative pt-2 mb-8">
+          <hr class="text-[#C9C8C6] opacity[0.5]" />
+          <img
+            class="absolute left-[66px] bottom-[-0.8px]"
+            src="/assets/vectors/green.svg"
+            alt=""
+          />
+        </div>
+        <section
+          class="rounded-[1.25rem] border-[1.25rem] border-[#F9F9F9] px-[1.43rem]"
+        >
+          <div class="rounded-[1.25rem]">
+            <div class="flex justify-between mt-[2.4375rem] mr-4">
+              <p class="text-[1.125rem] text-[#54565B] self-center pl-4">
+                Requests
+              </p>
+              <button
+                type="button"
+                class="font-normal h-[2.4rem] rounded-[0.5rem] bg-[#38CB89] text-[#fff] text-[0.75rem] w-[7rem]"
+              >
+                Create Request
+              </button>
+            </div>
+            <hr class="text-[#C9C8C6] opacity[0.5] my-2" />
+          </div>
+
+          <article
+            class="border border-[#EBEBEB] rounded-[1.25rem] px-[3.3rem] py-[1.5rem] my-[1.5rem] flex justify-between"
+          >
+            <div class="flex flex-col">
+              <div>
+                <p class="text-[0.625rem] text-[#707673]">Contracts - ID</p>
+                <span class="flex gap-1 pt-2">
+                  <p class="text-[0.75rem] text-[#535362]">
+                    PW-353554-164597137...
+                  </p>
+                  <img src="/assets/vectors/copy.svg" alt="" />
+                </span>
+              </div>
+
+              <div class="flex justify-between mt-6">
+                <div>
+                  <p class="text-[0.625rem] text-[#707673]">LPO Quote</p>
+                  <span class="flex gap-1 pt-2">
+                    <img
+                      class="self-start"
+                      src="/assets/vectors/report.svg"
+                      alt=""
+                    />
+                    <span>
+                      <p class="text-[0.75rem] text-[#535362]">
+                        Tunner Report.pdf
+                      </p>
+                      <p class="text-[0.468rem] text-[#B4B4B0]">2MB document</p>
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex flex-col">
+              <div>
+                <p class="text-[0.625rem] text-[#707673]">Commodity</p>
+                <span class="flex gap-2 pt-2">
+                  <p class="text-[0.75rem] text-[#535362]">Sesame</p>
+                  <img src="/assets/vectors/arr-green.svg" alt="" />
+                </span>
+              </div>
+
+              <div class="mt-6">
+                <p class="text-[0.625rem] text-[#707673]">Warehouse</p>
+                <p class="text-[0.75rem] text-[#535362] pt-2">Anchau-AFTL</p>
+              </div>
+            </div>
+
+            <div class="flex flex-col">
+              <div>
+                <p class="text-[0.625rem] text-[#707673]">End-Product</p>
+                <p class="text-[0.75rem] text-[#535362] pt-2">Cleaned Sesame</p>
+              </div>
+
+              <div class="mt-6">
+                <p class="text-[0.625rem] text-[#707673]">Volume (MT)</p>
+                <p class="text-[0.75rem] text-[#535362] pt-2">3000</p>
+              </div>
+            </div>
+
+            <div class="flex flex-col">
+              <div>
+                <p class="text-[0.625rem] text-[#707673]">Grade</p>
+                <p class="text-[0.75rem] text-[#535362] pt-2">2</p>
+              </div>
+              <div class="mt-6">
+                <p class="text-[0.625rem] text-[#707673]">Date</p>
+                <time
+                  datetime="2022-05-01"
+                  class="text-[0.75rem] text-[#535362] pt-2"
+                  >May 01, 2022</time
+                >
+              </div>
+            </div>
+
+            <div class="flex flex-col">
+              <div>
+                <p class="text-[0.625rem] text-[#707673]">Purity Level</p>
+                <p class="text-[0.75rem] text-[#535362] pt-2">98%</p>
+              </div>
+            </div>
+
+            <div class="flex flex-col">
+              <div>
+                <p class="text-[0.625rem] text-[#707673]">Status</p>
+                <p class="text-[0.75rem] italic text-[#DD5A56] pt-2">Pending</p>
+              </div>
+
+              <button
+                type="button"
+                class="mt-6 font-normal h-[1.81rem] rounded-[0.5rem] bg-[#38CB89] text-[#fff] text-[0.75rem] w-[6.06rem]"
+              >
+                Modify
+              </button>
+            </div>
+          </article>
+
+          <article
+            class="border border-[#EBEBEB] rounded-[1.25rem] px-[3.3rem] py-[1.5rem] my-[1.5rem] flex justify-between"
+          >
+            <div class="flex flex-col">
+              <div>
+                <p class="text-[0.625rem] text-[#707673]">Contracts - ID</p>
+                <span class="flex gap-1 pt-2">
+                  <p class="text-[0.75rem] text-[#535362]">
+                    PW-353554-164597137...
+                  </p>
+                  <img src="/assets/vectors/copy.svg" alt="" />
+                </span>
+              </div>
+
+              <div class="flex justify-between mt-6">
+                <div>
+                  <p class="text-[0.625rem] text-[#707673]">LPO Quote</p>
+                  <span class="flex gap-1 pt-2">
+                    <img
+                      class="self-start"
+                      src="/assets/vectors/report.svg"
+                      alt=""
+                    />
+                    <span>
+                      <p class="text-[0.75rem] text-[#535362]">
+                        Tunner Report.pdf
+                      </p>
+                      <p class="text-[0.468rem] text-[#B4B4B0]">2MB document</p>
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex flex-col">
+              <div>
+                <p class="text-[0.625rem] text-[#707673]">Commodity</p>
+                <span class="flex gap-2 pt-2">
+                  <p class="text-[0.75rem] text-[#535362]">Sesame</p>
+                  <img src="/assets/vectors/arr-green.svg" alt="" />
+                </span>
+              </div>
+
+              <div class="mt-6">
+                <p class="text-[0.625rem] text-[#707673]">Warehouse</p>
+                <p class="text-[0.75rem] text-[#535362] pt-2">Anchau-AFTL</p>
+              </div>
+            </div>
+
+            <div class="flex flex-col">
+              <div>
+                <p class="text-[0.625rem] text-[#707673]">End-Product</p>
+                <p class="text-[0.75rem] text-[#535362] pt-2">Cleaned Sesame</p>
+              </div>
+
+              <div class="mt-6">
+                <p class="text-[0.625rem] text-[#707673]">Volume (MT)</p>
+                <p class="text-[0.75rem] text-[#535362] pt-2">3000</p>
+              </div>
+            </div>
+
+            <div class="flex flex-col">
+              <div>
+                <p class="text-[0.625rem] text-[#707673]">Grade</p>
+                <p class="text-[0.75rem] text-[#535362] pt-2">2</p>
+              </div>
+              <div class="mt-6">
+                <p class="text-[0.625rem] text-[#707673]">Date</p>
+                <time
+                  datetime="2022-05-01"
+                  class="text-[0.75rem] text-[#535362] pt-2"
+                  >May 01, 2022</time
+                >
+              </div>
+            </div>
+
+            <div class="flex flex-col">
+              <div>
+                <p class="text-[0.625rem] text-[#707673]">Purity Level</p>
+                <p class="text-[0.75rem] text-[#535362] pt-2">98%</p>
+              </div>
+            </div>
+
+            <div class="flex flex-col">
+              <div class="relative">
+                <p class="text-[0.625rem] text-[#707673]">Status</p>
+                <p class="text-[0.75rem] italic text-[#DD5A56] pt-2">Pending</p>
+                <img
+                  class="absolute right-0 top-0"
+                  src="/assets/vectors/status-pend.svg"
+                  alt=""
+                />
+              </div>
+
+              <button
+                type="button"
+                class="mt-6 font-normal h-[1.81rem] rounded-[0.5rem] bg-[#38CB89] text-[#fff] text-[0.65rem] w-[6.06rem]"
+              >
+                View Comment
+              </button>
+            </div>
+          </article>
+
+          <article
+            class="border border-[#EBEBEB] rounded-[1.25rem] px-[3.3rem] py-[1.5rem] my-[1.5rem] flex justify-between"
+          >
+            <div class="flex flex-col">
+              <div>
+                <p class="text-[0.625rem] text-[#707673]">Contracts - ID</p>
+                <span class="flex gap-1 pt-2">
+                  <p class="text-[0.75rem] text-[#535362]">
+                    PW-353554-164597137...
+                  </p>
+                  <img src="/assets/vectors/copy.svg" alt="" />
+                </span>
+              </div>
+
+              <div class="flex justify-between mt-6">
+                <div>
+                  <p class="text-[0.625rem] text-[#707673]">LPO Quote</p>
+                  <span class="flex gap-1 pt-2">
+                    <img
+                      class="self-start"
+                      src="/assets/vectors/report.svg"
+                      alt=""
+                    />
+                    <span>
+                      <p class="text-[0.75rem] text-[#535362]">
+                        Tunner Report.pdf
+                      </p>
+                      <p class="text-[0.468rem] text-[#B4B4B0]">2MB document</p>
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex flex-col">
+              <div>
+                <p class="text-[0.625rem] text-[#707673]">Commodity</p>
+                <span class="flex gap-2 pt-2">
+                  <p class="text-[0.75rem] text-[#535362]">Sesame</p>
+                  <img src="/assets/vectors/arr-green.svg" alt="" />
+                </span>
+              </div>
+
+              <div class="mt-6">
+                <p class="text-[0.625rem] text-[#707673]">Warehouse</p>
+                <p class="text-[0.75rem] text-[#535362] pt-2">Anchau-AFTL</p>
+              </div>
+            </div>
+
+            <div class="flex flex-col">
+              <div>
+                <p class="text-[0.625rem] text-[#707673]">End-Product</p>
+                <p class="text-[0.75rem] text-[#535362] pt-2">Cleaned Sesame</p>
+              </div>
+
+              <div class="mt-6">
+                <p class="text-[0.625rem] text-[#707673]">Volume (MT)</p>
+                <p class="text-[0.75rem] text-[#535362] pt-2">3000</p>
+              </div>
+            </div>
+
+            <div class="flex flex-col">
+              <div>
+                <p class="text-[0.625rem] text-[#707673]">Grade</p>
+                <p class="text-[0.75rem] text-[#535362] pt-2">2</p>
+              </div>
+              <div class="mt-6">
+                <p class="text-[0.625rem] text-[#707673]">Date</p>
+                <time
+                  datetime="2022-05-01"
+                  class="text-[0.75rem] text-[#535362] pt-2"
+                  >May 01, 2022</time
+                >
+              </div>
+            </div>
+
+            <div class="flex flex-col">
+              <div>
+                <p class="text-[0.625rem] text-[#707673]">Purity Level</p>
+                <p class="text-[0.75rem] text-[#535362] pt-2">98%</p>
+              </div>
+            </div>
+
+            <div class="flex flex-col">
+              <div>
+                <p class="text-[0.625rem] text-[#707673]">Status</p>
+                <p class="text-[0.75rem] italic text-[#DD5A56] pt-2">Pending</p>
+              </div>
+
+              <button
+                type="button"
+                class="mt-6 font-normal h-[1.81rem] rounded-[0.5rem] bg-[#38CB89] text-[#fff] text-[0.75rem] w-[6.06rem]"
+              >
+                Modify
+              </button>
+            </div>
+          </article>
+
+          <div
+            class="bg-[#F9F9F9] text-[0.75rem] flex my-4 p-3 rounded-md justify-between items-center"
+          >
+            <p class="text-[#9FA19C]">1-3 of 40 Entries</p>
+            <div class="flex gap-4 items-center">
+              <div class="bg-[#F3F3F3] rounded-[0.5rem] p-3">
+                <img src="/assets/vectors/arr-left.svg" alt="" />
+              </div>
+              <div
+                class="flex text-[0.9rem] text-[#9FA19C] gap-2 self-center items-center"
+              >
+                <p class="text-[#38CB89]">1</p>
+                <p>2</p>
+                <p>3</p>
+                <p>...</p>
+                <p>6</p>
+                <div class="bg-[#38CB89] rounded-[0.5rem] p-3">
+                  <img src="/assets/vectors/arr-ryt-wt.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="scripts/twconfig.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+  </body>
+</html>
